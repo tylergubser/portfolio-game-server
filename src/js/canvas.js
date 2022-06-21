@@ -6,6 +6,21 @@ import spriteRunLeft from '../img/spriteRunLeft.png'
 import spriteRunRight from '../img/spriteRunRight.png'
 import spriteStandLeft from '../img/spriteStandLeft.png'
 import spriteStandRight from '../img/spriteStandRight.png'
+import javascript  from '../img/javascript.png'
+import ruby  from '../img/ruby.png'
+import sign  from '../img/sign.png'
+import direction  from '../img/direction.png'
+import movement  from '../img/movement.png'
+import react  from '../img/react.png'
+import rails  from '../img/rails.png'
+import html  from '../img/html.png'
+import css  from '../img/css.png'
+import tailwind  from '../img/tailwind.png'
+import skills from '../img/skills.gif'
+import redux from '../img/redux.png'
+import signs from '../img/signs.png'
+
+
 const canvas = document.querySelector("canvas")
 
 const c = canvas.getContext('2d')
@@ -127,8 +142,8 @@ const player = new Player()
 const platforms = [
   new Platform({x: 0, y: 850, image: platformImage}),
   new Platform({x: 500, y: 850, image: platformImage}),
-  new Platform({x: 550, y: 500, image: platformImage}),
-  new Platform({x: 1200, y: 600, image: platformImage}), 
+  // new Platform({x: 550, y: 500, image: platformImage}),
+  // new Platform({x: 1200, y: 600, image: platformImage}), 
   new Platform({x: 1000, y: 850, image: platformImage}), 
   new Platform({x: 1500, y: 850, image: platformImage}), 
   new Platform({x: 2000, y: 850, image: platformImage}),
@@ -150,13 +165,31 @@ const platforms = [
   new Platform({x: 10000, y: 850, image: platformImage}),
   new Platform({x: 10500, y: 850, image: platformImage}),
   new Platform({x: 11000, y: 850, image: platformImage}),
-  new Platform({x: 11500, y: 850, image: platformImage}),]
+  new Platform({x: 11500, y: 850, image: platformImage}),
+  new Platform({x: 2000, y: 600, image: platformImage}),
+  new Platform({x: 2700, y: 400, image: platformImage}),
+  new Platform({x: 3300, y: 200, image: platformImage}),
+  new Platform({x: 3800, y: 400, image: platformImage}),
+]
 
 const resumeObjects = [ 
-  new ResumeObject({x: 0, y: 150, image: createImage(background)}),
-  new ResumeObject({x: 0, y: -1, image: createImage(background)}),
+  // new ResumeObject({x: 0, y: 150, image: createImage(background)}),
+  // new ResumeObject({x: 0, y: -1, image: createImage(background)}),
   new ResumeObject({x: 0, y: 300, image: createImage(hills)}),
-  // new ResumeObject({x:})
+  new ResumeObject({x: 1100, y: 600, image: createImage(javascript)}),
+  new ResumeObject({x: 850, y: 600, image: createImage(ruby)}),
+  new ResumeObject({x: 510, y: 600, image: createImage(sign)}),
+  new ResumeObject({x: 100, y: 200, image: createImage(direction)}),
+  new ResumeObject({x: 75, y: 0, image: createImage(movement)}),
+  new ResumeObject({x: 1300, y: 600, image: createImage(react)}),
+  new ResumeObject({x: 1530, y: 600, image: createImage(rails)}),
+  new ResumeObject({x: 850, y: 300, image: createImage(html)}),
+  new ResumeObject({x: 1100, y: 300, image: createImage(css)}),
+  new ResumeObject({x: 1320, y: 300, image: createImage(tailwind)}),
+  new ResumeObject({x: 970, y: -100, image: createImage(skills)}),
+  new ResumeObject({x: 1530, y: 300, image: createImage(redux)}),
+  new ResumeObject({x: 2400, y: 600, image: createImage(signs)}),
+
 ]
 let lastKey
 

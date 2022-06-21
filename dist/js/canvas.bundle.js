@@ -99,6 +99,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/css.png":
+/*!*************************!*\
+  !*** ./src/img/css.png ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "0e67005b69194491cf963880d13f397f.png");
+
+/***/ }),
+
+/***/ "./src/img/direction.png":
+/*!*******************************!*\
+  !*** ./src/img/direction.png ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "64dbc16ca0094b6539eb00a616645e2b.png");
+
+/***/ }),
+
 /***/ "./src/img/hills.png":
 /*!***************************!*\
   !*** ./src/img/hills.png ***!
@@ -109,6 +135,45 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "cfffe4c371f5e11d372b398a87c51dd0.png");
+
+/***/ }),
+
+/***/ "./src/img/html.png":
+/*!**************************!*\
+  !*** ./src/img/html.png ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "f94c64e7716c2cefaf114bedd885cb50.png");
+
+/***/ }),
+
+/***/ "./src/img/javascript.png":
+/*!********************************!*\
+  !*** ./src/img/javascript.png ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "211dd84e7ab13eabe4a45d94b576f5b4.png");
+
+/***/ }),
+
+/***/ "./src/img/movement.png":
+/*!******************************!*\
+  !*** ./src/img/movement.png ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "56a7903746206a1f2615358008111553.png");
 
 /***/ }),
 
@@ -135,6 +200,97 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "0587f9be8e442eb74b2fe283bbf1a947.png");
+
+/***/ }),
+
+/***/ "./src/img/rails.png":
+/*!***************************!*\
+  !*** ./src/img/rails.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "c56a6dfd192c2faece0ff27ef43d3b1e.png");
+
+/***/ }),
+
+/***/ "./src/img/react.png":
+/*!***************************!*\
+  !*** ./src/img/react.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "257e081fbb213ee5ff153519ed0b79f4.png");
+
+/***/ }),
+
+/***/ "./src/img/redux.png":
+/*!***************************!*\
+  !*** ./src/img/redux.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "f5456fa55a717c657d6645616f5674a6.png");
+
+/***/ }),
+
+/***/ "./src/img/ruby.png":
+/*!**************************!*\
+  !*** ./src/img/ruby.png ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "db398eb8408384e18287169946f5e3ca.png");
+
+/***/ }),
+
+/***/ "./src/img/sign.png":
+/*!**************************!*\
+  !*** ./src/img/sign.png ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "cad0e69cdb189c524858f0eb5050de7e.png");
+
+/***/ }),
+
+/***/ "./src/img/signs.png":
+/*!***************************!*\
+  !*** ./src/img/signs.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "e1b717f6d63dce99ba1e50969cc8531f.png");
+
+/***/ }),
+
+/***/ "./src/img/skills.gif":
+/*!****************************!*\
+  !*** ./src/img/skills.gif ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "843921662c5304c6a1110c977715e17b.gif");
 
 /***/ }),
 
@@ -190,6 +346,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/tailwind.png":
+/*!******************************!*\
+  !*** ./src/img/tailwind.png ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "1a6a772f800f7aca866e854edfcba604.png");
+
+/***/ }),
+
 /***/ "./src/js/canvas.js":
 /*!**************************!*\
   !*** ./src/js/canvas.js ***!
@@ -207,11 +376,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_spriteRunRight_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/spriteRunRight.png */ "./src/img/spriteRunRight.png");
 /* harmony import */ var _img_spriteStandLeft_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/spriteStandLeft.png */ "./src/img/spriteStandLeft.png");
 /* harmony import */ var _img_spriteStandRight_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/spriteStandRight.png */ "./src/img/spriteStandRight.png");
+/* harmony import */ var _img_javascript_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/javascript.png */ "./src/img/javascript.png");
+/* harmony import */ var _img_ruby_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/ruby.png */ "./src/img/ruby.png");
+/* harmony import */ var _img_sign_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/sign.png */ "./src/img/sign.png");
+/* harmony import */ var _img_direction_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/direction.png */ "./src/img/direction.png");
+/* harmony import */ var _img_movement_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/movement.png */ "./src/img/movement.png");
+/* harmony import */ var _img_react_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/react.png */ "./src/img/react.png");
+/* harmony import */ var _img_rails_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/rails.png */ "./src/img/rails.png");
+/* harmony import */ var _img_html_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/html.png */ "./src/img/html.png");
+/* harmony import */ var _img_css_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/css.png */ "./src/img/css.png");
+/* harmony import */ var _img_tailwind_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/tailwind.png */ "./src/img/tailwind.png");
+/* harmony import */ var _img_skills_gif__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/skills.gif */ "./src/img/skills.gif");
+/* harmony import */ var _img_redux_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/redux.png */ "./src/img/redux.png");
+/* harmony import */ var _img_signs_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/signs.png */ "./src/img/signs.png");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -351,15 +546,9 @@ var platforms = [new Platform({
   x: 500,
   y: 850,
   image: platformImage
-}), new Platform({
-  x: 550,
-  y: 500,
-  image: platformImage
-}), new Platform({
-  x: 1200,
-  y: 600,
-  image: platformImage
-}), new Platform({
+}), // new Platform({x: 550, y: 500, image: platformImage}),
+// new Platform({x: 1200, y: 600, image: platformImage}), 
+new Platform({
   x: 1000,
   y: 850,
   image: platformImage
@@ -447,21 +636,82 @@ var platforms = [new Platform({
   x: 11500,
   y: 850,
   image: platformImage
+}), new Platform({
+  x: 2000,
+  y: 600,
+  image: platformImage
+}), new Platform({
+  x: 2700,
+  y: 400,
+  image: platformImage
+}), new Platform({
+  x: 3300,
+  y: 200,
+  image: platformImage
+}), new Platform({
+  x: 3800,
+  y: 400,
+  image: platformImage
 })];
-var resumeObjects = [new ResumeObject({
-  x: 0,
-  y: 150,
-  image: createImage(_img_background_png__WEBPACK_IMPORTED_MODULE_2__["default"])
-}), new ResumeObject({
-  x: 0,
-  y: -1,
-  image: createImage(_img_background_png__WEBPACK_IMPORTED_MODULE_2__["default"])
-}), new ResumeObject({
+var resumeObjects = [// new ResumeObject({x: 0, y: 150, image: createImage(background)}),
+// new ResumeObject({x: 0, y: -1, image: createImage(background)}),
+new ResumeObject({
   x: 0,
   y: 300,
   image: createImage(_img_hills_png__WEBPACK_IMPORTED_MODULE_1__["default"])
-}) // new ResumeObject({x:})
-];
+}), new ResumeObject({
+  x: 1100,
+  y: 600,
+  image: createImage(_img_javascript_png__WEBPACK_IMPORTED_MODULE_8__["default"])
+}), new ResumeObject({
+  x: 850,
+  y: 600,
+  image: createImage(_img_ruby_png__WEBPACK_IMPORTED_MODULE_9__["default"])
+}), new ResumeObject({
+  x: 510,
+  y: 600,
+  image: createImage(_img_sign_png__WEBPACK_IMPORTED_MODULE_10__["default"])
+}), new ResumeObject({
+  x: 100,
+  y: 200,
+  image: createImage(_img_direction_png__WEBPACK_IMPORTED_MODULE_11__["default"])
+}), new ResumeObject({
+  x: 75,
+  y: 0,
+  image: createImage(_img_movement_png__WEBPACK_IMPORTED_MODULE_12__["default"])
+}), new ResumeObject({
+  x: 1300,
+  y: 600,
+  image: createImage(_img_react_png__WEBPACK_IMPORTED_MODULE_13__["default"])
+}), new ResumeObject({
+  x: 1530,
+  y: 600,
+  image: createImage(_img_rails_png__WEBPACK_IMPORTED_MODULE_14__["default"])
+}), new ResumeObject({
+  x: 850,
+  y: 300,
+  image: createImage(_img_html_png__WEBPACK_IMPORTED_MODULE_15__["default"])
+}), new ResumeObject({
+  x: 1100,
+  y: 300,
+  image: createImage(_img_css_png__WEBPACK_IMPORTED_MODULE_16__["default"])
+}), new ResumeObject({
+  x: 1320,
+  y: 300,
+  image: createImage(_img_tailwind_png__WEBPACK_IMPORTED_MODULE_17__["default"])
+}), new ResumeObject({
+  x: 970,
+  y: -100,
+  image: createImage(_img_skills_gif__WEBPACK_IMPORTED_MODULE_18__["default"])
+}), new ResumeObject({
+  x: 1530,
+  y: 300,
+  image: createImage(_img_redux_png__WEBPACK_IMPORTED_MODULE_19__["default"])
+}), new ResumeObject({
+  x: 2400,
+  y: 600,
+  image: createImage(_img_signs_png__WEBPACK_IMPORTED_MODULE_20__["default"])
+})];
 var lastKey;
 var keys = {
   right: {
