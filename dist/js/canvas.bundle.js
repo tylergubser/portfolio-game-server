@@ -99,6 +99,71 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/blog.png":
+/*!**************************!*\
+  !*** ./src/img/blog.png ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "fc6a9f8001e44e63d09a93e93173bc6e.png");
+
+/***/ }),
+
+/***/ "./src/img/blog1.png":
+/*!***************************!*\
+  !*** ./src/img/blog1.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "552b3d2147181a2a5fcf2b029c03ca92.png");
+
+/***/ }),
+
+/***/ "./src/img/blog2.png":
+/*!***************************!*\
+  !*** ./src/img/blog2.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "cb827166489ba0f34f89bbb6b69d53cc.png");
+
+/***/ }),
+
+/***/ "./src/img/blog3.png":
+/*!***************************!*\
+  !*** ./src/img/blog3.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "84bc2403e8e89af77169dc172870a34b.png");
+
+/***/ }),
+
+/***/ "./src/img/blogs.jpg":
+/*!***************************!*\
+  !*** ./src/img/blogs.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "4d71015348cb39df8d9ed71aeb4ecea1.jpg");
+
+/***/ }),
+
 /***/ "./src/img/css.png":
 /*!*************************!*\
   !*** ./src/img/css.png ***!
@@ -122,6 +187,45 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "64dbc16ca0094b6539eb00a616645e2b.png");
+
+/***/ }),
+
+/***/ "./src/img/drink.png":
+/*!***************************!*\
+  !*** ./src/img/drink.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "8dea544ccbc171d56c8a07bcfa307050.png");
+
+/***/ }),
+
+/***/ "./src/img/fish.png":
+/*!**************************!*\
+  !*** ./src/img/fish.png ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "beb7ecfca514aeda5deb62c1f937dead.png");
+
+/***/ }),
+
+/***/ "./src/img/game.png":
+/*!**************************!*\
+  !*** ./src/img/game.png ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "7e15447c3baac1a57accdf6dfd90ac25.png");
 
 /***/ }),
 
@@ -203,6 +307,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/projects.png":
+/*!******************************!*\
+  !*** ./src/img/projects.png ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "7bb3b2b4d7ecc76c35a5e74e5112a2a3.png");
+
+/***/ }),
+
 /***/ "./src/img/rails.png":
 /*!***************************!*\
   !*** ./src/img/rails.png ***!
@@ -242,6 +359,58 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/resume.png":
+/*!****************************!*\
+  !*** ./src/img/resume.png ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ac677c382e7f0a96b7bf770043e2ee1d.png");
+
+/***/ }),
+
+/***/ "./src/img/resume2.png":
+/*!*****************************!*\
+  !*** ./src/img/resume2.png ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "fcd53fec802eca9e4aa10c4cb89d477a.png");
+
+/***/ }),
+
+/***/ "./src/img/resume3.png":
+/*!*****************************!*\
+  !*** ./src/img/resume3.png ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "fed51de0d997e99892e06b44811202d5.png");
+
+/***/ }),
+
+/***/ "./src/img/resume4.png":
+/*!*****************************!*\
+  !*** ./src/img/resume4.png ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "d8dbe1e0d2e3c7d072d397d47826d231.png");
+
+/***/ }),
+
 /***/ "./src/img/ruby.png":
 /*!**************************!*\
   !*** ./src/img/ruby.png ***!
@@ -265,6 +434,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "cad0e69cdb189c524858f0eb5050de7e.png");
+
+/***/ }),
+
+/***/ "./src/img/sign1.png":
+/*!***************************!*\
+  !*** ./src/img/sign1.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "e325fc50e9340c7983c4bf23842e37e6.png");
+
+/***/ }),
+
+/***/ "./src/img/sign2.png":
+/*!***************************!*\
+  !*** ./src/img/sign2.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "668f8da1dc4ba71831c00357d95d0aae.png");
 
 /***/ }),
 
@@ -359,6 +554,45 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/techstack.png":
+/*!*******************************!*\
+  !*** ./src/img/techstack.png ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "e683bee242e4defc7a8f60cd07fb7745.png");
+
+/***/ }),
+
+/***/ "./src/img/techstack1.png":
+/*!********************************!*\
+  !*** ./src/img/techstack1.png ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "01d3e0b927fa5cfcaa9c15dd27570f85.png");
+
+/***/ }),
+
+/***/ "./src/img/techstack2.png":
+/*!********************************!*\
+  !*** ./src/img/techstack2.png ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "5c4127a90e456dab4581a91ad0209f47.png");
+
+/***/ }),
+
 /***/ "./src/js/canvas.js":
 /*!**************************!*\
   !*** ./src/js/canvas.js ***!
@@ -389,11 +623,47 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_skills_gif__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/skills.gif */ "./src/img/skills.gif");
 /* harmony import */ var _img_redux_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/redux.png */ "./src/img/redux.png");
 /* harmony import */ var _img_signs_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/signs.png */ "./src/img/signs.png");
+/* harmony import */ var _img_resume_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/resume.png */ "./src/img/resume.png");
+/* harmony import */ var _img_resume2_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/resume2.png */ "./src/img/resume2.png");
+/* harmony import */ var _img_resume3_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/resume3.png */ "./src/img/resume3.png");
+/* harmony import */ var _img_resume4_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/resume4.png */ "./src/img/resume4.png");
+/* harmony import */ var _img_sign1_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/sign1.png */ "./src/img/sign1.png");
+/* harmony import */ var _img_sign2_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/sign2.png */ "./src/img/sign2.png");
+/* harmony import */ var _img_blog_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/blog.png */ "./src/img/blog.png");
+/* harmony import */ var _img_blog1_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/blog1.png */ "./src/img/blog1.png");
+/* harmony import */ var _img_blog2_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/blog2.png */ "./src/img/blog2.png");
+/* harmony import */ var _img_blogs_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/blogs.jpg */ "./src/img/blogs.jpg");
+/* harmony import */ var _img_blog3_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/blog3.png */ "./src/img/blog3.png");
+/* harmony import */ var _img_game_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/game.png */ "./src/img/game.png");
+/* harmony import */ var _img_drink_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/drink.png */ "./src/img/drink.png");
+/* harmony import */ var _img_projects_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../img/projects.png */ "./src/img/projects.png");
+/* harmony import */ var _img_fish_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../img/fish.png */ "./src/img/fish.png");
+/* harmony import */ var _img_techstack_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../img/techstack.png */ "./src/img/techstack.png");
+/* harmony import */ var _img_techstack1_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../img/techstack1.png */ "./src/img/techstack1.png");
+/* harmony import */ var _img_techstack2_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../img/techstack2.png */ "./src/img/techstack2.png");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -469,7 +739,7 @@ var Player = /*#__PURE__*/function () {
       this.draw();
       this.position.x += this.velocity.x;
       this.position.y += this.velocity.y;
-      if (this.position.y + this.height + this.velocity.y <= canvas.height) this.velocity.y += gravity;else this.velocity.y = 0;
+      if (this.position.y + this.height + this.velocity.y <= canvas.height) this.velocity.y += gravity;
     }
   }]);
 
@@ -637,6 +907,86 @@ new Platform({
   y: 850,
   image: platformImage
 }), new Platform({
+  x: 12000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 12500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 13000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 13500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 14000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 14500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 15000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 15500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 16000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 16500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 17000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 17500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 18000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 18500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 19000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 19500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 20000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 20500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 21000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 21500,
+  y: 850,
+  image: platformImage
+}), new Platform({
   x: 2000,
   y: 600,
   image: platformImage
@@ -651,6 +1001,114 @@ new Platform({
 }), new Platform({
   x: 3800,
   y: 400,
+  image: platformImage
+}), new Platform({
+  x: 5300,
+  y: 500,
+  image: platformImage
+}), new Platform({
+  x: 5800,
+  y: 500,
+  image: platformImage
+}), new Platform({
+  x: 6800,
+  y: 600,
+  image: platformImage
+}), new Platform({
+  x: 7300,
+  y: 600,
+  image: platformImage
+}), new Platform({
+  x: 8000,
+  y: 500,
+  image: platformImage
+}), new Platform({
+  x: 8800,
+  y: 600,
+  image: platformImage
+}), new Platform({
+  x: 10000,
+  y: 600,
+  image: platformImage
+}), new Platform({
+  x: 10700,
+  y: 500,
+  image: platformImage
+}), new Platform({
+  x: 11300,
+  y: 400,
+  image: platformImage
+}), new Platform({
+  x: 15000,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 14500,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 14000,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 15500,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 16000,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 16500,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 17000,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 17500,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 18000,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 18500,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 19000,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 19500,
+  y: 726,
+  image: platformImage
+}), new Platform({
+  x: 22000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 22500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 23000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 23500,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 25000,
+  y: 850,
+  image: platformImage
+}), new Platform({
+  x: 25500,
+  y: 850,
   image: platformImage
 })];
 var resumeObjects = [// new ResumeObject({x: 0, y: 150, image: createImage(background)}),
@@ -711,6 +1169,78 @@ new ResumeObject({
   x: 2400,
   y: 600,
   image: createImage(_img_signs_png__WEBPACK_IMPORTED_MODULE_20__["default"])
+}), new ResumeObject({
+  x: 2800,
+  y: 0,
+  image: createImage(_img_resume_png__WEBPACK_IMPORTED_MODULE_21__["default"])
+}), new ResumeObject({
+  x: 3600,
+  y: 0,
+  image: createImage(_img_resume2_png__WEBPACK_IMPORTED_MODULE_22__["default"])
+}), new ResumeObject({
+  x: 4300,
+  y: 0,
+  image: createImage(_img_resume3_png__WEBPACK_IMPORTED_MODULE_23__["default"])
+}), new ResumeObject({
+  x: 4300,
+  y: 450,
+  image: createImage(_img_resume4_png__WEBPACK_IMPORTED_MODULE_24__["default"])
+}), new ResumeObject({
+  x: 5100,
+  y: 600,
+  image: createImage(_img_sign1_png__WEBPACK_IMPORTED_MODULE_25__["default"])
+}), new ResumeObject({
+  x: 5700,
+  y: 150,
+  image: createImage(_img_blog_png__WEBPACK_IMPORTED_MODULE_27__["default"])
+}), new ResumeObject({
+  x: 6000,
+  y: 150,
+  image: createImage(_img_blog1_png__WEBPACK_IMPORTED_MODULE_28__["default"])
+}), new ResumeObject({
+  x: 6300,
+  y: 150,
+  image: createImage(_img_blog2_png__WEBPACK_IMPORTED_MODULE_29__["default"])
+}), new ResumeObject({
+  x: 6100,
+  y: -30,
+  image: createImage(_img_blogs_jpg__WEBPACK_IMPORTED_MODULE_30__["default"])
+}), new ResumeObject({
+  x: 6600,
+  y: 150,
+  image: createImage(_img_blog3_png__WEBPACK_IMPORTED_MODULE_31__["default"])
+}), new ResumeObject({
+  x: 6900,
+  y: 490,
+  image: createImage(_img_sign2_png__WEBPACK_IMPORTED_MODULE_26__["default"])
+}), new ResumeObject({
+  x: 7600,
+  y: 200,
+  image: createImage(_img_game_png__WEBPACK_IMPORTED_MODULE_32__["default"])
+}), new ResumeObject({
+  x: 8200,
+  y: 200,
+  image: createImage(_img_drink_png__WEBPACK_IMPORTED_MODULE_33__["default"])
+}), new ResumeObject({
+  x: 8350,
+  y: 0,
+  image: createImage(_img_projects_png__WEBPACK_IMPORTED_MODULE_34__["default"])
+}), new ResumeObject({
+  x: 8850,
+  y: 200,
+  image: createImage(_img_fish_png__WEBPACK_IMPORTED_MODULE_35__["default"])
+}), new ResumeObject({
+  x: 8330,
+  y: 500,
+  image: createImage(_img_techstack_png__WEBPACK_IMPORTED_MODULE_36__["default"])
+}), new ResumeObject({
+  x: 8990,
+  y: 500,
+  image: createImage(_img_techstack1_png__WEBPACK_IMPORTED_MODULE_37__["default"])
+}), new ResumeObject({
+  x: 7710,
+  y: 500,
+  image: createImage(_img_techstack2_png__WEBPACK_IMPORTED_MODULE_38__["default"])
 })];
 var lastKey;
 var keys = {
@@ -737,7 +1267,7 @@ function animate() {
 
   if (keys.right.pressed && player.position.x < 400) {
     player.velocity.x = 2;
-  } else if (keys.left.pressed && player.position.x > 100 || keys.left.pressed && scrollOffset === 0 && player.position.x > 0) {
+  } else if (keys.left.pressed && player.position.x > 100 || keys.left.pressed && scrollOffset === 0 && player.position.x > 2) {
     player.velocity.x = -2;
   } else {
     player.velocity.x = 0;
@@ -750,7 +1280,7 @@ function animate() {
       resumeObjects.forEach(function (resumeObject) {
         resumeObject.position.x -= 2;
       });
-    } else if (keys.left.pressed && scrollOffset > 0) {
+    } else if (keys.left.pressed && scrollOffset > 2) {
       scrollOffset += 5;
       platforms.forEach(function (platform) {
         platform.position.x += 5;
@@ -789,6 +1319,10 @@ function animate() {
   //     console.log("You Win")
   // }
 
+
+  if (player.position.y > canvas.height) {
+    window.location.href = "https://portfolio-2022-tylergubser.vercel.app/";
+  }
 }
 
 animate();

@@ -19,6 +19,24 @@ import tailwind  from '../img/tailwind.png'
 import skills from '../img/skills.gif'
 import redux from '../img/redux.png'
 import signs from '../img/signs.png'
+import resume from '../img/resume.png'
+import resume2 from '../img/resume2.png'
+import resume3 from '../img/resume3.png'
+import resume4 from '../img/resume4.png'
+import sign1 from '../img/sign1.png'
+import sign2 from '../img/sign2.png'
+import blog from '../img/blog.png'
+import blog1 from '../img/blog1.png'
+import blog2 from '../img/blog2.png'
+import blogs from '../img/blogs.jpg'
+import blog3 from '../img/blog3.png'
+import game from '../img/game.png'
+import drink from '../img/drink.png'
+import projects from '../img/projects.png'
+import fish from '../img/fish.png'
+import techstack from '../img/techstack.png'
+import techstack1 from '../img/techstack1.png'
+import techstack2 from '../img/techstack2.png'
 
 
 const canvas = document.querySelector("canvas")
@@ -86,7 +104,7 @@ class Player {
         this.position.y += this.velocity.y
         if (this.position.y + this.height + this.velocity.y <= canvas.height)
             this.velocity.y += gravity
-        else this.velocity.y = 0
+        
     } 
 }
 
@@ -166,10 +184,57 @@ const platforms = [
   new Platform({x: 10500, y: 850, image: platformImage}),
   new Platform({x: 11000, y: 850, image: platformImage}),
   new Platform({x: 11500, y: 850, image: platformImage}),
+  new Platform({x: 12000, y: 850, image: platformImage}),
+  new Platform({x: 12500, y: 850, image: platformImage}),
+  new Platform({x: 13000, y: 850, image: platformImage}),
+  new Platform({x: 13500, y: 850, image: platformImage}),
+  new Platform({x: 14000, y: 850, image: platformImage}),
+  new Platform({x: 14500, y: 850, image: platformImage}),
+  new Platform({x: 15000, y: 850, image: platformImage}),
+  new Platform({x: 15500, y: 850, image: platformImage}),
+  new Platform({x: 16000, y: 850, image: platformImage}),
+  new Platform({x: 16500, y: 850, image: platformImage}),
+  new Platform({x: 17000, y: 850, image: platformImage}),
+  new Platform({x: 17500, y: 850, image: platformImage}),
+  new Platform({x: 18000, y: 850, image: platformImage}),
+  new Platform({x: 18500, y: 850, image: platformImage}),
+  new Platform({x: 19000, y: 850, image: platformImage}),
+  new Platform({x: 19500, y: 850, image: platformImage}),
+  new Platform({x: 20000, y: 850, image: platformImage}),
+  new Platform({x: 20500, y: 850, image: platformImage}),
+  new Platform({x: 21000, y: 850, image: platformImage}),
+  new Platform({x: 21500, y: 850, image: platformImage}),
   new Platform({x: 2000, y: 600, image: platformImage}),
   new Platform({x: 2700, y: 400, image: platformImage}),
   new Platform({x: 3300, y: 200, image: platformImage}),
   new Platform({x: 3800, y: 400, image: platformImage}),
+  new Platform({x: 5300, y: 500, image: platformImage}),
+  new Platform({x: 5800, y: 500, image: platformImage}),
+  new Platform({x: 6800, y: 600, image: platformImage}),
+  new Platform({x: 7300, y: 600, image: platformImage}),
+  new Platform({x: 8000, y: 500, image: platformImage}),
+  new Platform({x: 8800, y: 600, image: platformImage}),
+  new Platform({x: 10000, y: 600, image: platformImage}),
+  new Platform({x: 10700, y: 500, image: platformImage}),
+  new Platform({x: 11300, y: 400, image: platformImage}),
+  new Platform({x: 15000, y: 726, image: platformImage}),
+  new Platform({x: 14500, y: 726, image: platformImage}),
+  new Platform({x: 14000, y: 726, image: platformImage}),
+  new Platform({x: 15500, y: 726, image: platformImage}),
+  new Platform({x: 16000, y: 726, image: platformImage}),
+  new Platform({x: 16500, y: 726, image: platformImage}),
+  new Platform({x: 17000, y: 726, image: platformImage}),
+  new Platform({x: 17500, y: 726, image: platformImage}),
+  new Platform({x: 18000, y: 726, image: platformImage}),
+  new Platform({x: 18500, y: 726, image: platformImage}),
+  new Platform({x: 19000, y: 726, image: platformImage}),
+  new Platform({x: 19500, y: 726, image: platformImage}),
+  new Platform({x: 22000, y: 850, image: platformImage}),
+  new Platform({x: 22500, y: 850, image: platformImage}),
+  new Platform({x: 23000, y: 850, image: platformImage}),
+  new Platform({x: 23500, y: 850, image: platformImage}),
+  new Platform({x: 25000, y: 850, image: platformImage}),
+  new Platform({x: 25500, y: 850, image: platformImage}),
 ]
 
 const resumeObjects = [ 
@@ -189,7 +254,25 @@ const resumeObjects = [
   new ResumeObject({x: 970, y: -100, image: createImage(skills)}),
   new ResumeObject({x: 1530, y: 300, image: createImage(redux)}),
   new ResumeObject({x: 2400, y: 600, image: createImage(signs)}),
-
+  new ResumeObject({x: 2800, y: 0, image: createImage(resume)}),
+  new ResumeObject({x: 3600, y: 0, image: createImage(resume2)}),
+  new ResumeObject({x: 4300, y: 0, image: createImage(resume3)}),
+  new ResumeObject({x: 4300, y: 450, image: createImage(resume4)}),
+  new ResumeObject({x: 5100, y: 600, image: createImage(sign1)}),
+  new ResumeObject({x: 5700, y: 150, image: createImage(blog)}),
+  new ResumeObject({x: 6000, y: 150, image: createImage(blog1)}),
+  new ResumeObject({x: 6300, y: 150, image: createImage(blog2)}),
+  new ResumeObject({x: 6100, y: -30, image: createImage(blogs)}),
+  new ResumeObject({x: 6600, y: 150, image: createImage(blog3)}),
+  new ResumeObject({x: 6900, y: 490, image: createImage(sign2)}),
+  new ResumeObject({x: 7600, y: 200, image: createImage(game)}),
+  new ResumeObject({x: 8200, y: 200, image: createImage(drink)}),
+  new ResumeObject({x: 8350, y: 0, image: createImage(projects)}),
+  new ResumeObject({x: 8850, y: 200, image: createImage(fish)}),
+  new ResumeObject({x: 8330, y: 500, image: createImage(techstack)}),
+  new ResumeObject({x: 8990, y: 500, image: createImage(techstack1)}),
+  new ResumeObject({x: 7710, y: 500, image: createImage(techstack2)}),
+  
 ]
 let lastKey
 
@@ -219,7 +302,7 @@ function animate() {
     if (keys.right.pressed && player.position.x < 400) {
         player.velocity.x = 2
     }
-    else if ((keys.left.pressed && player.position.x > 100) || (keys.left.pressed && scrollOffset === 0 && player.position.x > 0)) {
+    else if ((keys.left.pressed && player.position.x > 100) || (keys.left.pressed && scrollOffset === 0 && player.position.x > 2)) {
         player.velocity.x = -2
     } else {
         player.velocity.x = 0
@@ -232,7 +315,7 @@ function animate() {
       resumeObject.position.x -= 2
     })
   }
-    else if (keys.left.pressed && scrollOffset > 0) {
+    else if (keys.left.pressed && scrollOffset > 2) {
         scrollOffset += 5
         platforms.forEach((platform) => {
             platform.position.x += 5
@@ -271,6 +354,9 @@ function animate() {
 // if (scrollOffset > 3000) {
 //     console.log("You Win")
 // }
+if (player.position.y > canvas.height) {
+  window.location.href = "https://portfolio-2022-tylergubser.vercel.app/";
+}
 }
 animate()
 
