@@ -190,6 +190,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/downarrow.png":
+/*!*******************************!*\
+  !*** ./src/img/downarrow.png ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "b748f78857f78664e24d3ebd568ee474.png");
+
+/***/ }),
+
 /***/ "./src/img/drink.png":
 /*!***************************!*\
   !*** ./src/img/drink.png ***!
@@ -593,6 +606,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/tradport.png":
+/*!******************************!*\
+  !*** ./src/img/tradport.png ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "283ba36728d01540112ad91705fcaf9c.png");
+
+/***/ }),
+
 /***/ "./src/js/canvas.js":
 /*!**************************!*\
   !*** ./src/js/canvas.js ***!
@@ -641,6 +667,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_techstack_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../img/techstack.png */ "./src/img/techstack.png");
 /* harmony import */ var _img_techstack1_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../img/techstack1.png */ "./src/img/techstack1.png");
 /* harmony import */ var _img_techstack2_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../img/techstack2.png */ "./src/img/techstack2.png");
+/* harmony import */ var _img_tradport_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../img/tradport.png */ "./src/img/tradport.png");
+/* harmony import */ var _img_downarrow_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../img/downarrow.png */ "./src/img/downarrow.png");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -685,6 +713,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
 
+
+
+ // document.addEventListener("DOMContentLoaded", function(event) {
+//   setTimeout(animate(), 10000)
+// });
 
 var canvas = document.querySelector("canvas");
 var c = canvas.getContext('2d');
@@ -1241,6 +1274,14 @@ new ResumeObject({
   x: 7710,
   y: 500,
   image: createImage(_img_techstack2_png__WEBPACK_IMPORTED_MODULE_38__["default"])
+}), new ResumeObject({
+  x: 10000,
+  y: 200,
+  image: createImage(_img_tradport_png__WEBPACK_IMPORTED_MODULE_39__["default"])
+}), new ResumeObject({
+  x: 10000,
+  y: 500,
+  image: createImage(_img_downarrow_png__WEBPACK_IMPORTED_MODULE_40__["default"])
 })];
 var lastKey;
 var keys = {
@@ -1318,11 +1359,10 @@ function animate() {
   } // if (scrollOffset > 3000) {
   //     console.log("You Win")
   // }
+  // if (player.position.y > canvas.height) {
+  //   window.location.href = "https://portfolio-2022-tylergubser.vercel.app/";
+  // }
 
-
-  if (player.position.y > canvas.height) {
-    window.location.href = "https://portfolio-2022-tylergubser.vercel.app/";
-  }
 }
 
 animate();

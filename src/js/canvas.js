@@ -1,3 +1,5 @@
+
+
 import platform from '../img/platform.png'
 import hills from '../img/hills.png'
 import background from '../img/background.png'
@@ -37,9 +39,14 @@ import fish from '../img/fish.png'
 import techstack from '../img/techstack.png'
 import techstack1 from '../img/techstack1.png'
 import techstack2 from '../img/techstack2.png'
+import tradport from '../img/tradport.png'
+import downarrow from '../img/downarrow.png'
 
+// document.addEventListener("DOMContentLoaded", function(event) {
+//   setTimeout(animate(), 10000)
+// });
 
-const canvas = document.querySelector("canvas")
+  const canvas = document.querySelector("canvas")
 
 const c = canvas.getContext('2d')
 
@@ -49,84 +56,88 @@ canvas.height = innerHeight
 const gravity = 0.5
 
 class Player {
-    constructor() {
-        this.position = {
-            x: 100,
-            y: 100
-        }
-        this.velocity = {
-            x: 0,
-            y: 0
-        }
+  constructor() {
+      this.position = {
+          x: 100,
+          y: 100
+      }
+      this.velocity = {
+          x: 0,
+          y: 0
+      }
 
-        this.width = 66
-        this.height = 150
+      this.width = 66
+      this.height = 150
 
-        this.image = createImage(spriteStandRight)
-        this.frames = 0
-        this.sprites = {
-          stand: {
-            right: createImage(spriteStandRight),
-            left: createImage(spriteStandLeft),
-            cropWidth: 177,
-            width: 66
-          },
-          run: {
-            right: createImage(spriteRunRight),
-            left: createImage(spriteRunLeft),
-            cropWidth: 341,
-            width: 127.875
-          }
+      this.image = createImage(spriteStandRight)
+      this.frames = 0
+      this.sprites = {
+        stand: {
+          right: createImage(spriteStandRight),
+          left: createImage(spriteStandLeft),
+          cropWidth: 177,
+          width: 66
+        },
+        run: {
+          right: createImage(spriteRunRight),
+          left: createImage(spriteRunLeft),
+          cropWidth: 341,
+          width: 127.875
         }
-        this.currentSprite = this.sprites.stand.right
-        this.currentCropWidth = 177
-    }
+      }
+      this.currentSprite = this.sprites.stand.right
+      this.currentCropWidth = 177
+  }
+  
+  draw() {
+    c.drawImage(
+      this.currentSprite,
+      this.currentCropWidth * this.frames,
+      0,
+      this.currentCropWidth ,
+      400, 
+      this.position.x, 
+      this.position.y, 
+      this.width, 
+      this.height)
     
-    draw() {
-      c.drawImage(
-        this.currentSprite,
-        this.currentCropWidth * this.frames,
-        0,
-        this.currentCropWidth ,
-        400, 
-        this.position.x, 
-        this.position.y, 
-        this.width, 
-        this.height)
+  }
+  update() {
+      this.frames++
+      if (this.frames > 59 && (this.currentSprite === this.sprites.stand.right || this.currentSprite === this.sprites.stand.left)) this.frames = 0
+      else if (this.frames > 29 && (this.currentSprite === this.sprites.run.right || this.currentSprite === this.sprites.run.left)) this.frames = 0
+      this.draw()
+      this.position.x += this.velocity.x
+      this.position.y += this.velocity.y
+      if (this.position.y + this.height + this.velocity.y <= canvas.height)
+          this.velocity.y += gravity
       
-    }
-    update() {
-        this.frames++
-        if (this.frames > 59 && (this.currentSprite === this.sprites.stand.right || this.currentSprite === this.sprites.stand.left)) this.frames = 0
-        else if (this.frames > 29 && (this.currentSprite === this.sprites.run.right || this.currentSprite === this.sprites.run.left)) this.frames = 0
-        this.draw()
-        this.position.x += this.velocity.x
-        this.position.y += this.velocity.y
-        if (this.position.y + this.height + this.velocity.y <= canvas.height)
-            this.velocity.y += gravity
-        
-    } 
+  } 
 }
+
 
 class Platform {
-    constructor({ x, y, image }) {
-        this.position = {
-             x,
-             y
-        }
-    this.image = image
-    this.width = image.width
-    this.height = image.height
-    
-    }
-    draw() {
-        c.drawImage(
-          this.image, 
-          this.position.x, 
-          this.position.y)
-        
-    }
+  constructor({ x, y, image }) {
+      this.position = {
+           x,
+           y
+      }
+  this.image = image
+  this.width = image.width
+  this.height = image.height
+  
+  }
+  draw() {
+      c.drawImage(
+        this.image, 
+        this.position.x, 
+        this.position.y)
+      
+  }
 }
+
+
+
 
 class ResumeObject {
   constructor({ x, y, image }) {
@@ -153,6 +164,8 @@ function createImage(imageSrc) {
   image.src = imageSrc
   return image
 }
+
+
 
 const platformImage = createImage(platform)
 
@@ -237,6 +250,8 @@ const platforms = [
   new Platform({x: 25500, y: 850, image: platformImage}),
 ]
 
+
+
 const resumeObjects = [ 
   // new ResumeObject({x: 0, y: 150, image: createImage(background)}),
   // new ResumeObject({x: 0, y: -1, image: createImage(background)}),
@@ -272,6 +287,8 @@ const resumeObjects = [
   new ResumeObject({x: 8330, y: 500, image: createImage(techstack)}),
   new ResumeObject({x: 8990, y: 500, image: createImage(techstack1)}),
   new ResumeObject({x: 7710, y: 500, image: createImage(techstack2)}),
+  new ResumeObject({x: 10000, y: 200, image: createImage(tradport)}),
+  new ResumeObject({x: 10000, y: 500, image: createImage(downarrow)}),
   
 ]
 let lastKey
@@ -286,6 +303,8 @@ const keys = {
 }
 
 let scrollOffset = 0
+
+
 
 function animate() {
     requestAnimationFrame(animate)
@@ -354,9 +373,9 @@ function animate() {
 // if (scrollOffset > 3000) {
 //     console.log("You Win")
 // }
-if (player.position.y > canvas.height) {
-  window.location.href = "https://portfolio-2022-tylergubser.vercel.app/";
-}
+// if (player.position.y > canvas.height) {
+//   window.location.href = "https://portfolio-2022-tylergubser.vercel.app/";
+// }
 }
 animate()
 
@@ -406,6 +425,8 @@ addEventListener('keyup', ({ keyCode }) => {
             break            
     }
 })
+
+
 
 
 
