@@ -253,6 +253,7 @@ const platforms = [
   new Platform({x: 26000, y: 850, image: platformImage}),
   new Platform({x: 26500, y: 850, image: platformImage}),
   new Platform({x: 27000, y: 850, image: platformImage}),
+  new Platform({x: 27500, y: 850, image: platformImage}),
 ]
 
 
