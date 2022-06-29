@@ -151,16 +151,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/blogs.jpg":
+/***/ "./src/img/blogs.png":
 /*!***************************!*\
-  !*** ./src/img/blogs.jpg ***!
+  !*** ./src/img/blogs.png ***!
   \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "4d71015348cb39df8d9ed71aeb4ecea1.jpg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "05bea3dc2b9143cfd0e9ae34b7d786b7.png");
 
 /***/ }),
 
@@ -213,6 +213,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "8dea544ccbc171d56c8a07bcfa307050.png");
+
+/***/ }),
+
+/***/ "./src/img/education.png":
+/*!*******************************!*\
+  !*** ./src/img/education.png ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "0e62cf398f7ae21f41b3ecd46f85e073.png");
 
 /***/ }),
 
@@ -329,7 +342,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "7bb3b2b4d7ecc76c35a5e74e5112a2a3.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "d7dab7c6573fd0b534418448602a8cd4.png");
 
 /***/ }),
 
@@ -394,7 +407,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "fcd53fec802eca9e4aa10c4cb89d477a.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "41f404d970c3d25fa1d66de010ce9f86.png");
 
 /***/ }),
 
@@ -407,7 +420,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "fed51de0d997e99892e06b44811202d5.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "9638a37155f80838e78665b5c0ed635b.png");
 
 /***/ }),
 
@@ -420,7 +433,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "d8dbe1e0d2e3c7d072d397d47826d231.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ffefe238e1141429d958ae2e39d0e25b.png");
 
 /***/ }),
 
@@ -489,16 +502,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/img/skills.gif":
+/***/ "./src/img/skills.png":
 /*!****************************!*\
-  !*** ./src/img/skills.gif ***!
+  !*** ./src/img/skills.png ***!
   \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "843921662c5304c6a1110c977715e17b.gif");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "5099e7d7f41d81318d4907345d990a1a.png");
 
 /***/ }),
 
@@ -619,6 +632,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/work.png":
+/*!**************************!*\
+  !*** ./src/img/work.png ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "70e519c697ac4cd14dd0aaec94284ac1.png");
+
+/***/ }),
+
 /***/ "./src/js/canvas.js":
 /*!**************************!*\
   !*** ./src/js/canvas.js ***!
@@ -646,7 +672,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_html_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/html.png */ "./src/img/html.png");
 /* harmony import */ var _img_css_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/css.png */ "./src/img/css.png");
 /* harmony import */ var _img_tailwind_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/tailwind.png */ "./src/img/tailwind.png");
-/* harmony import */ var _img_skills_gif__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/skills.gif */ "./src/img/skills.gif");
+/* harmony import */ var _img_skills_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/skills.png */ "./src/img/skills.png");
 /* harmony import */ var _img_redux_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/redux.png */ "./src/img/redux.png");
 /* harmony import */ var _img_signs_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/signs.png */ "./src/img/signs.png");
 /* harmony import */ var _img_resume_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/resume.png */ "./src/img/resume.png");
@@ -658,7 +684,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_blog_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/blog.png */ "./src/img/blog.png");
 /* harmony import */ var _img_blog1_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/blog1.png */ "./src/img/blog1.png");
 /* harmony import */ var _img_blog2_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/blog2.png */ "./src/img/blog2.png");
-/* harmony import */ var _img_blogs_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/blogs.jpg */ "./src/img/blogs.jpg");
+/* harmony import */ var _img_blogs_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/blogs.png */ "./src/img/blogs.png");
 /* harmony import */ var _img_blog3_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/blog3.png */ "./src/img/blog3.png");
 /* harmony import */ var _img_game_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/game.png */ "./src/img/game.png");
 /* harmony import */ var _img_drink_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/drink.png */ "./src/img/drink.png");
@@ -669,11 +695,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_techstack2_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../img/techstack2.png */ "./src/img/techstack2.png");
 /* harmony import */ var _img_tradport_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../img/tradport.png */ "./src/img/tradport.png");
 /* harmony import */ var _img_downarrow_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../img/downarrow.png */ "./src/img/downarrow.png");
+/* harmony import */ var _img_work_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../img/work.png */ "./src/img/work.png");
+/* harmony import */ var _img_education_png__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../img/education.png */ "./src/img/education.png");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+
 
 
 
@@ -1191,9 +1221,9 @@ new ResumeObject({
   y: 300,
   image: createImage(_img_tailwind_png__WEBPACK_IMPORTED_MODULE_17__["default"])
 }), new ResumeObject({
-  x: 970,
-  y: -100,
-  image: createImage(_img_skills_gif__WEBPACK_IMPORTED_MODULE_18__["default"])
+  x: 1100,
+  y: 0,
+  image: createImage(_img_skills_png__WEBPACK_IMPORTED_MODULE_18__["default"])
 }), new ResumeObject({
   x: 1530,
   y: 300,
@@ -1203,48 +1233,52 @@ new ResumeObject({
   y: 600,
   image: createImage(_img_signs_png__WEBPACK_IMPORTED_MODULE_20__["default"])
 }), new ResumeObject({
-  x: 2800,
-  y: 0,
-  image: createImage(_img_resume_png__WEBPACK_IMPORTED_MODULE_21__["default"])
+  x: 2700,
+  y: -90,
+  image: createImage(_img_education_png__WEBPACK_IMPORTED_MODULE_42__["default"])
 }), new ResumeObject({
-  x: 3600,
-  y: 0,
+  x: 2800,
+  y: 280,
   image: createImage(_img_resume2_png__WEBPACK_IMPORTED_MODULE_22__["default"])
 }), new ResumeObject({
   x: 4300,
-  y: 0,
+  y: -20,
+  image: createImage(_img_work_png__WEBPACK_IMPORTED_MODULE_41__["default"])
+}), new ResumeObject({
+  x: 4380,
+  y: 280,
   image: createImage(_img_resume3_png__WEBPACK_IMPORTED_MODULE_23__["default"])
 }), new ResumeObject({
-  x: 4300,
-  y: 450,
+  x: 4380,
+  y: 680,
   image: createImage(_img_resume4_png__WEBPACK_IMPORTED_MODULE_24__["default"])
 }), new ResumeObject({
   x: 5100,
   y: 600,
   image: createImage(_img_sign1_png__WEBPACK_IMPORTED_MODULE_25__["default"])
 }), new ResumeObject({
-  x: 5700,
+  x: 5550,
   y: 150,
   image: createImage(_img_blog_png__WEBPACK_IMPORTED_MODULE_27__["default"])
 }), new ResumeObject({
-  x: 6000,
+  x: 5800,
   y: 150,
   image: createImage(_img_blog1_png__WEBPACK_IMPORTED_MODULE_28__["default"])
 }), new ResumeObject({
-  x: 6300,
+  x: 6600,
   y: 150,
   image: createImage(_img_blog2_png__WEBPACK_IMPORTED_MODULE_29__["default"])
 }), new ResumeObject({
-  x: 6100,
-  y: -30,
-  image: createImage(_img_blogs_jpg__WEBPACK_IMPORTED_MODULE_30__["default"])
+  x: 6130,
+  y: 10,
+  image: createImage(_img_blogs_png__WEBPACK_IMPORTED_MODULE_30__["default"])
 }), new ResumeObject({
-  x: 6600,
+  x: 6860,
   y: 150,
   image: createImage(_img_blog3_png__WEBPACK_IMPORTED_MODULE_31__["default"])
 }), new ResumeObject({
   x: 6900,
-  y: 490,
+  y: 475,
   image: createImage(_img_sign2_png__WEBPACK_IMPORTED_MODULE_26__["default"])
 }), new ResumeObject({
   x: 7600,

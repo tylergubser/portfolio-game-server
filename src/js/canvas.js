@@ -18,7 +18,7 @@ import rails  from '../img/rails.png'
 import html  from '../img/html.png'
 import css  from '../img/css.png'
 import tailwind  from '../img/tailwind.png'
-import skills from '../img/skills.gif'
+import skills from '../img/skills.png'
 import redux from '../img/redux.png'
 import signs from '../img/signs.png'
 import resume from '../img/resume.png'
@@ -30,7 +30,7 @@ import sign2 from '../img/sign2.png'
 import blog from '../img/blog.png'
 import blog1 from '../img/blog1.png'
 import blog2 from '../img/blog2.png'
-import blogs from '../img/blogs.jpg'
+import blogs from '../img/blogs.png'
 import blog3 from '../img/blog3.png'
 import game from '../img/game.png'
 import drink from '../img/drink.png'
@@ -41,6 +41,8 @@ import techstack1 from '../img/techstack1.png'
 import techstack2 from '../img/techstack2.png'
 import tradport from '../img/tradport.png'
 import downarrow from '../img/downarrow.png'
+import work from '../img/work.png'
+import education from '../img/education.png'
 
 // document.addEventListener("DOMContentLoaded", function(event) {
 //   setTimeout(animate(), 10000)
@@ -248,6 +250,7 @@ const platforms = [
   new Platform({x: 23500, y: 850, image: platformImage}),
   new Platform({x: 25000, y: 850, image: platformImage}),
   new Platform({x: 25500, y: 850, image: platformImage}),
+  new Platform({x: 26000, y: 850, image: platformImage}),
 ]
 
 
@@ -266,20 +269,21 @@ const resumeObjects = [
   new ResumeObject({x: 850, y: 300, image: createImage(html)}),
   new ResumeObject({x: 1100, y: 300, image: createImage(css)}),
   new ResumeObject({x: 1320, y: 300, image: createImage(tailwind)}),
-  new ResumeObject({x: 970, y: -100, image: createImage(skills)}),
+  new ResumeObject({x: 1100, y: 0, image: createImage(skills)}),
   new ResumeObject({x: 1530, y: 300, image: createImage(redux)}),
   new ResumeObject({x: 2400, y: 600, image: createImage(signs)}),
-  new ResumeObject({x: 2800, y: 0, image: createImage(resume)}),
-  new ResumeObject({x: 3600, y: 0, image: createImage(resume2)}),
-  new ResumeObject({x: 4300, y: 0, image: createImage(resume3)}),
-  new ResumeObject({x: 4300, y: 450, image: createImage(resume4)}),
+  new ResumeObject({x: 2700, y: -90, image: createImage(education)}),
+  new ResumeObject({x: 2800, y: 280, image: createImage(resume2)}),
+  new ResumeObject({x: 4300, y: -20, image: createImage(work)}),
+  new ResumeObject({x: 4380, y: 280, image: createImage(resume3)}),
+  new ResumeObject({x: 4380, y: 680, image: createImage(resume4)}),
   new ResumeObject({x: 5100, y: 600, image: createImage(sign1)}),
-  new ResumeObject({x: 5700, y: 150, image: createImage(blog)}),
-  new ResumeObject({x: 6000, y: 150, image: createImage(blog1)}),
-  new ResumeObject({x: 6300, y: 150, image: createImage(blog2)}),
-  new ResumeObject({x: 6100, y: -30, image: createImage(blogs)}),
-  new ResumeObject({x: 6600, y: 150, image: createImage(blog3)}),
-  new ResumeObject({x: 6900, y: 490, image: createImage(sign2)}),
+  new ResumeObject({x: 5550, y: 150, image: createImage(blog)}),
+  new ResumeObject({x: 5800, y: 150, image: createImage(blog1)}),
+  new ResumeObject({x: 6600, y: 150, image: createImage(blog2)}),
+  new ResumeObject({x: 6130, y: 10, image: createImage(blogs)}),
+  new ResumeObject({x: 6860, y: 150, image: createImage(blog3)}),
+  new ResumeObject({x: 6900, y: 475, image: createImage(sign2)}),
   new ResumeObject({x: 7600, y: 200, image: createImage(game)}),
   new ResumeObject({x: 8200, y: 200, image: createImage(drink)}),
   new ResumeObject({x: 8350, y: 0, image: createImage(projects)}),
